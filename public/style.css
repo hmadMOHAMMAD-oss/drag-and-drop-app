@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:monospace;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    font-size: 33px;
+}
+
+nav{
+    padding: 10px;
+    background-color: #164B60;
+}
+img{
+     width: 200px;
+}
+#pNav{
+    float:right;
+    font-size: x-large;
+    color: white;
+    margin-top: 14px;
+}
+
+
+main{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+    gap: 30px;
+}
+.input{
+    background-color: #ffffff;
+    color: #164B60;
+    width: 400px;
+    height: 160px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: solid #164B60;
+    border-radius: 10px;
+}
+/* Form */
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#itemInput{
+    background-color: #DAFFFB;
+    height: 50px;
+    width: 300px;
+    border: 2px solid #164B60;
+    border-radius: 5px;
+    outline: none;
+    padding: 2px;
+}
+#itemInput:hover{
+    border: solid #164B60;
+}
+#btnInput{
+    background-color: #DAFFFB;
+    width: 100px;
+    height: 40px;
+    border: solid #ffffff;
+    border-radius: 5px;
+    color: #164B60;
+    font-size: 25px;
+    cursor: pointer;
+}
+#btnInput:hover{
+    color: #164B60;
+    border: solid #164B60;
+    box-shadow: 0px 0px 10px #164B60;
+}
+
+/* Contant Rea */
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+    align-items: flex-start;
+}
+.Bs{
+    font-size: 30px;
+}
+.box{
+    width: 200px;
+    background-color: #ffffff;
+    border: solid #164B60;
+    border-radius: 5px;
+    padding: 10px;
+    color: #164B60;
+}
+#to-do{
+    border:solid #2d9e36;
+}
+#prog{
+    border:solid #3892ce;
+}
+#com{
+    border:solid #db1919;
+}
+
+
+.item{
+    background-color: #164B60;
+    height:auto;
+    color: white;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: solid;
+    border-radius: 5px;
+    cursor: move;
+}
+.dragging {
+    opacity: 0.5;
+  }
+.trash{
+    float: right;
+    font-size: 30px;
+}
+.disaple{
+    display: none;
+}
